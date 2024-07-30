@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: #00BCD4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #03A9F4;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.header-logo {
+    margin: 10px;
+}
+
+.header-text {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header-menu-list {
+    list-style-type: none; /* Видалити маркери списку */
+    padding: 0; /* Видалити внутрішні відступи */
+    margin: 0; /* Видалити зовнішні відступи */
+    display: flex;
+}
+
+.header-menu-list li {
+    margin-right: 20px;
+}
+
+.header-menu-list a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header-menu-list a:hover {
+    text-decoration: underline;
+    color:#ffe500;
+}
+
+
+/* main*/
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-text-h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.main-text-h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.span-main-h2 {
+    color: #ffe500;
+}
+
+.text-age {
+    font-size: 15px;
+}
+
+.main-scratch, .main-web, .main-python {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-scratch, .img-web, .img-python {
+    margin-right: 20px;
+}
+
+.text-scratch, .text-web, .text-python {
+    padding: 0; /* Видалити внутрішні відступи */
+    margin: 0; 
+    flex: 1;
+}
+
+.text-h3 {
+    padding: 0; /* Видалити внутрішні відступи */
+    margin: 0; 
+    font-size: 30px;
+}
+
+.text-scratch, .text-web, .text-python {
+    font-size: 20px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #03A9F4;
+    text-align: center;
+    padding: 10px;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contacts-text {
+    list-style-type: none; /* Видалити маркери списку */
+    padding: 0; /* Видалити внутрішні відступи */
+    margin: 0; /* Видалити зовнішні відступи */
+    display: flex;
+}
+
+.contacts-text li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contacts-text a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contacts-text a:hover {
+    text-decoration: underline;
+    color:#ffe500;
+}
